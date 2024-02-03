@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column; /* 一列に並べる */
+  align-items: right; /* 中央揃え */
+  padding: 20px;
+}
+
+.icon {
+  width: 60px; /* アイコンのサイズ */
+  margin: 5px; /* アイコン間の余白 */
+}
